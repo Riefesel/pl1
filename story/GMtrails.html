@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <!--Adapted from https://developers.google.com/maps/documentation/javascript/marker-clustering#maps_marker_clustering-html-->
+  <head>
+    <title>GMNP Trail Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>   
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE&callback=initMap"
+      defer>
+    </script>
+    <script src="trailmarkers.js"></script>
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+        #map {
+        height: 100%;
+        }
+        /* Optional: Makes the sample page fill the window. */
+        html,
+        body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        }
+        header {
+        text-align: center;
+        font-family: "Alegreya SC", sans-serif;
+        font-size:50px;
+        color: white;
+        background-color: #483D8B;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        }
+        footer {
+        background-color: #483D8B;
+	      padding: 2vw;
+	      position: static;
+        bottom: 0;
+        }
+        a {
+        text-align: center;
+        font-size: 20px;
+        font-family: "Alegreya SC", sans-serif;
+        color: white;  
+        }
+    </style>
+
+  </head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya">
+  <body>
+    <header>Gros Morne National Park Hiking Trails</header>
+    <div id="map"></div>
+    <footer>
+      <p>
+      <a href = "https://www.pc.gc.ca/en/pn-np/nl/grosmorne/activ/experiences/randonnee-hiking/etat-sentiers-trail-conditions"> Check out trail conditions here</a>
+      </p> 
+    </footer>
+
+  </body>
+</html>

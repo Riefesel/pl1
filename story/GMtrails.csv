@@ -1,20 +1,26 @@
-Name,Latitude,Longitude
-Gros Morne Mountain Hiking Trail,49.5661,-57.832231
-Lookout Hills Trail,49.492747,-57.927566
-Tablelands Trail,49.478171,-57.973777
-Green Gardens Trail,49.490441,-58.077168
-Eastern Point Trail,49.483501,-58.121668
-Lighthouse / Old Man Trail,49.478115,-58.131408
-Burnt Hill Trail,49.51797,-57.874722
-Berry Head Pond Trail,49.635278,-57.956811
-Bakers Brook Falls Trail,49.624326,-57.930105
-Berry Hill Trail,49.623947,-57.930161
-Coastal Trail,49.656548,-57.955756
-Western Brook Pond Trail,49.78736,-57.874409
-Snug Harbour Trail,49.781881,-57.842815
-Steve's Trail,49.835582,-57.86306
-Cow Head Community Trail,49.919906,-57.81352
-Overfalls Trail,49.368158,-57.966368
-Trout River Pond Trail,49.461155,-58.117346
-Elephant Head Trail,49.438605,-58.131419
-Tablelands Off-Trail Loop,49.478135,-57.974012
+Name,Latitude,Longitude,
+Gros Morne Mountain Hiking Trail,49.5661,-57.832231,"{ lat: 49.5661, lng: -57.832231},"
+Lookout Hills Trail,49.492747,-57.927566,"{ lat: 49.492747, lng: -57.927566},"
+Tablelands Trail,49.478171,-57.973777,"{ lat: 49.478171, lng: -57.973777},"
+Green Gardens Trail,49.490441,-58.077168,"{ lat: 49.490441, lng: -58.077168},"
+Eastern Point Trail,49.483501,-58.121668,"{ lat: 49.483501, lng: -58.121668},"
+Lighthouse / Old Man Trail,49.478115,-58.131408,"{ lat: 49.478115, lng: -58.131408},"
+Burnt Hill Trail,49.51797,-57.874722,"{ lat: 49.51797, lng: -57.874722},"
+Berry Head Pond Trail,49.635278,-57.956811,"{ lat: 49.635278, lng: -57.956811},"
+Bakers Brook Falls Trail,49.624326,-57.930105,"{ lat: 49.624326, lng: -57.930105},"
+Berry Hill Trail,49.623947,-57.930161,"{ lat: 49.623947, lng: -57.930161},"
+Coastal Trail,49.656548,-57.955756,"{ lat: 49.656548, lng: -57.955756},"
+Western Brook Pond Trail,49.78736,-57.874409,"{ lat: 49.78736, lng: -57.874409},"
+Snug Harbour Trail,49.781881,-57.842815,"{ lat: 49.781881, lng: -57.842815},"
+Steve's Trail,49.835582,-57.86306,"{ lat: 49.835582, lng: -57.86306},"
+Cow Head Community Trail,49.919906,-57.81352,"{ lat: 49.919906, lng: -57.81352},"
+Overfalls Trail,49.368158,-57.966368,"{ lat: 49.368158, lng: -57.966368},"
+Trout River Pond Trail,49.461155,-58.117346,"{ lat: 49.461155, lng: -58.117346},"
+Elephant Head Trail,49.438605,-58.131419,"{ lat: 49.438605, lng: -58.131419},"
+Tablelands Off-Trail Loop,49.478135,-57.974012,"{ lat: 49.478135, lng: -57.974012},"
+Lomond River Trail,49.42682,-57.739073,"{ lat: 49.42682, lng: -57.739073},"
+Stuckless Pond Loop,49.426602,-57.73874,"{ lat: 49.426602, lng: -57.73874},"
+South East brook Pond Trail,49.46321,-57.659363,"{ lat: 49.46321, lng: -57.659363},"
+Rocky Hills Lookout,49.600442,-57.936282,"{ lat: 49.600442, lng: -57.936282},"
+Baker's Brook Winter Access,49.60764,-57.939934,"{ lat: 49.60764, lng: -57.939934},"
+Lobster Cove Head Trails,49.602946,-57.955303,"{ lat: 49.602946, lng: -57.955303}"

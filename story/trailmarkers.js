@@ -2,8 +2,9 @@
 // Use function to create map centered on Gros Morne National Park hiking trails
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 9.5,
-      center: { lat: 49.5661, lng: -57.832231},
+      zoom: 9.25,
+      center: { lat: 49.673017, lng: -57.736697}, 
+// Change style of base map to highlight park boundary and stylize map
       styles: [
         { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
         { elementType: "labels.text.stroke", stylers: [{ color: "#242f3e" }] },
@@ -86,6 +87,7 @@ function initMap() {
       ],
     }); 
 // Fill in lat/long and location names of each trail head
+
   const tourStops = [
     [{ lat: 49.5661, lng: -57.832231}, "Gros Morne Mountain Hiking Trail"],
     [{ lat: 49.492747, lng: -57.927566},"Lookout Hills Trail"],
@@ -115,9 +117,10 @@ function initMap() {
 ];
 
 // Create pop-up window on marker click for trail name
+// https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple
 const infoWindow = new google.maps.InfoWindow();
 
-// Create Markers
+// Create Markers with trail name in tourStops
 tourStops.forEach(([position, title], i) => {
     const marker = new google.maps.Marker({
       position,
@@ -126,7 +129,8 @@ tourStops.forEach(([position, title], i) => {
       label: ``,
       optimized: false,
     });
-    // Add a click listener for each marker, view pans to selected marker
+// Add a click listener for each marker, view pans to selected marker
+// https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple
     marker.addListener("click", () => {
         infoWindow.close();
         infoWindow.setContent(marker.getTitle());
